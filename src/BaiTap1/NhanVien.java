@@ -10,11 +10,11 @@ package BaiTap1;
  * @author DELL
  */
 public class NhanVien {
-    String ten;
-    int tuoi;
-    String diaChi;
-    double tienLuong;
-    int tongGioLam;
+    private String ten;
+    private int tuoi;
+    private String diaChi;
+    private double tienLuong;
+    private int tongGioLam;
 
     public NhanVien() {
     }
