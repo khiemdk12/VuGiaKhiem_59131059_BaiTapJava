@@ -16,6 +16,8 @@ public class Bt1Main {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        NhanVien nv = new NhanVien("khiem", 10, "abc", 1, 100);
+        System.out.println(nv.getThongTin());
     }
-    
+            
 }
