@@ -15,7 +15,7 @@ import java.util.List;
  */
 public class QuanLy implements IQuanLy{
 
-    List<NhanVien> QL;
+    private List<NhanVien> QL;
 
     public QuanLy() {
         QL = new ArrayList<>();
