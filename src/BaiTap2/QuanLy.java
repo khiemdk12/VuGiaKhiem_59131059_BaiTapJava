@@ -33,7 +33,7 @@ public class QuanLy implements IQuanLy{
 //            System.out.println(i.getThongTin());
 //        });
         for (int i = 0 ; i < QL.size(); i++){
-            System.out.println("Nhan Vien 1: " + "\n" + QL.get(i).getThongTin());
+            System.out.println("Nhan Vien " + i + " : " + "\n" + QL.get(i).getThongTin());
         }
     }
     
