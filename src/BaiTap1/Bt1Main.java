@@ -16,10 +16,10 @@ public class Bt1Main {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        NhanVien nv = new NhanVien("khiem", 10, "abc", 1, 100);
-        NhanVien nv2 = new NhanVien("Khiêm", 20, "abc", 1000, 200);
+        NhanVien nv = new NhanVien("Vũ Gia Khiêm", 20, "Nha Trang", 1000000, 100);
+        NhanVien nv2 = new NhanVien("Vũ Gia Bảo", 21, "Diên Khánh", 1500000, 200);
         
-        System.out.println(nv.getThongTin() + nv2.getThongTin());
+        System.out.println("Thông tin nhân viên: \n" + nv.getThongTin() + "\n" +nv2.getThongTin());
     }
             
 }
